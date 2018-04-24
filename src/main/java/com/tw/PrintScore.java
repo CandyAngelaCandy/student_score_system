@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class PrintScore {
 
     //打印学生成绩信息
-    public void printStudentScoreInfo(String allNumOfInput,Set<Student> allStudentInfo) {
+    public void printStudentScoreInfo(String allNumOfInput,List<Student> allStudentInfo) {
         //根据学号打印成绩信息
 
         String [] stuNumArr = allNumOfInput.split(",");

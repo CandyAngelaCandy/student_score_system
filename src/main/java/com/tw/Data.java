@@ -9,6 +9,6 @@ import java.util.Set;
  * Created by dell on 2018/4/17.
  */
 public class Data {
-    public static Set<Student> allStudentInfo = new HashSet<>();
+    public static List<Student> allStudentInfo = new ArrayList<>();
     public static List<Integer> allSum = new ArrayList<>();
 }

@@ -17,7 +17,7 @@ public class PrintScoreTest {
 
     private ByteArrayOutputStream outContent = new ByteArrayOutputStream();
 
-    private  Set<Student> allStudentInfo = new HashSet<>();
+    private  List<Student> allStudentInfo = new ArrayList<>();
 
     @Before
     public void setup() {
